@@ -1,0 +1,24 @@
+<mvc:View controllerName="sap.ui.webAppProject.controller.InvoiceList" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<List id="invoiceList" class="sapUiResponsiveMargin" width="auto" items="{ path : 'invoice>/Invoices' }">
+		<headerToolbar>
+			<Toolbar>
+				<Title class="upcomingEv" text="{i18n>upcomingEvents}"/>
+				<ToolbarSpacer/>
+				<SearchField width="50%" search=".onFilterInvoices"/>
+			</Toolbar>
+		</headerToolbar>
+		<items>
+			<NotificationListItem
+				title="{path: 'invoice>StartDate', type: 'sap.ui.model.type.Date', formatOptions: { source: { pattern: 'yyyy-MM-ddTHH:mm:ss' }, pattern: 'dd.MM.yyyy' }} {invoice>EventName}"
+				description="{path: 'invoice>Description'}" showCloseButton="true"
+				datetime="{path: 'invoice>StartDate', type: 'sap.ui.model.type.Date', formatOptions: { source: { pattern: 'yyyy-MM-ddTHH:mm:ss' }, pattern: 'HH:mm' }} - {path: 'invoice>EndDate', type: 'sap.ui.model.type.Date', formatOptions: { source: { pattern: 'yyyy-MM-ddTHH:mm:ss' }, pattern: 'HH:mm' }}"
+				unread="true" priority="{invoice>Priority}" close="onItemClose" press="onListItemPress" authorName="{invoice>HostName}"
+				authorPicture="{invoice>Icon}">
+				<buttons>
+					<Button text="{i18n>acceptButton}" type="Accept" press="onAcceptPress" icon="sap-icon://accept"/>
+					<Button text="{i18n>rejectButton}" type="Reject" press="onRejectPress" icon="sap-icon://sys-cancel"/>
+				</buttons>
+			</NotificationListItem>
+		</items>
+	</List>
+</mvc:View>

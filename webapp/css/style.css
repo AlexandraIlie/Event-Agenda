@@ -1,0 +1,16 @@
+html[dir="ltr"] .webAppProject {
+    margin-right: 0.125rem
+}
+
+html[dir="rtl"] .webAppProject {
+    margin-left: 0.125rem
+}
+
+.sapThemeText-asColor {
+    color: #2B7D2B;
+}
+
+.upcomingEv {
+    font-weight: bold;
+    color: #1A9898;
+}

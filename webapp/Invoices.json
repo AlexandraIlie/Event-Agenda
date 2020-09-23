@@ -1,0 +1,35 @@
+{
+	"Invoices": [{
+		"EventName": "Office Meeting",
+		"HostName": "Pentalog",
+		"StartDate": "2019-04-20T09:00:00",
+		"EndDate": "2019-04-20T10:00:00",
+		"Priority": "High",
+		"Icon": "sap-icon://manager",
+		"Description": "One of the terrors of the modern office job is the meeting, wherein everyone in a particular business unit of a company converges to sit around a sad, grey conference table to recite terms like report and action item and iteration and suboptimal at each other in the hope that these will conjure, magically, a pile of money and happiness. Sadly, most of the time, these incantations do not summon wealth; most of the time, they instead summon responsibility. You walk in with some of it, and you walk out with more."
+	}, {
+		"EventName": "Haircut",
+		"HostName": "Fuzzy Hair Salon",
+		"StartDate": "2019-04-21T09:00:00",
+		"EndDate": "2019-04-21T16:00:00",
+		"Priority": "Medium",
+		"Icon": "sap-icon://scissors",
+		"Description": "You don't want to accept getting a haircut, but deep down you just know it has to happen. A Valencian fallera hairstyle is a traditional women's hairstyle typical of Valencia and its Falles celebration, and is reminiscent of the Leia hairstyle of Star Wars fame. It is an elaborate hairstyle consisting of two spiralled buns on either side of the head and two braids wound around the back of the head, with twisted strands of hair in different figures in the middle of the braids. This hairstyle is reminiscent of the one found on the ancient statue of the Lady of Elx."
+	}, {
+		"EventName": "Coffee Brew Seminar",
+		"HostName": "Croitoria de Cafea",
+		"StartDate": "2019-05-18T14:00:00",
+		"EndDate": "2019-05-18T16:00:00",
+		"Priority": "None",
+		"Icon": "sap-icon://meal",
+		"Description": "When life gives you lemons, trade them for coffee"
+	}, {
+		"EventName": "The Mono Jacks",
+		"HostName": "Deane's",
+		"StartDate": "2019-06-18T23:00:00",
+		"EndDate": "2019-04-18T:20:00",
+		"Priority": "Low",
+		"Icon": "sap-icon://theater",
+		"Description": "The band's single Itch picked up Hottest Record and Track Of The Day accolades on Radio 1 and also made it onto the Radio 1 playlist, as well as being added in regular rotation of Sirius XM new hard-rock channel Octane.[2] The band were picked by Gerard Way and thereafter Awolnation to support European dates.[3] They supported Arcade Fire and George Ezra at the BRITs show for War Child at the Electric in Brixton, performed at the NME Awards show, and toured with Twin Atlantic, Darlia, and Young Guns on separate support tours across the country. They have also been added to a multitude of European festivals including Reading & Leeds and Isle of Wight Festival. They have appeared twice on Radio 1's Live Lounge, Maida Vale session. In November 2014 they supported Twenty One Pilots alongside Purple at London's Electric Brixton.[4] In July 2015 they supported Muse at the Rock In Roma show, playing in front of 30,000 people.[5]"
+	}]
+}
